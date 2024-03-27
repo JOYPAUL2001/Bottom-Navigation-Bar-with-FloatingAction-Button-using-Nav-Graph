@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ButtomNavigation</string>
+    <string name="files">Files</string>
+    <string name="account">Account</string>
+    <string name="todo">TODO</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="files_fragment">Files Fragment</string>
+    <string name="account_fragment">Account Fragment</string>
+    <string name="predict">Predict</string>
+    <string name="joydeep">Joydeep</string>
+</resources>

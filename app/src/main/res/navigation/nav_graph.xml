@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FilesFragment">
+    <fragment
+        android:id="@+id/AccountFragment"
+        android:name="com.example.buttomnavigation.AccountFragment"
+        android:label="fragment_account"
+        tools:layout="@layout/fragment_account" >
+        <action
+            android:id="@+id/action_accountFragment2_to_patientDetailsFragment3"
+            app:destination="@id/patientDetailsFragment3" />
+        <action
+            android:id="@+id/action_AccountFragment_pop_including_FilesFragment"
+            app:popUpTo="@id/FilesFragment"
+            app:popUpToInclusive="true" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/patientDetailsFragment3"
+        android:name="com.example.buttomnavigation.patientDetailsFragment"
+        android:label="fragment_patient_details"
+        tools:layout="@layout/fragment_patient_details" />
+    <fragment
+        android:id="@+id/FilesFragment"
+        android:name="com.example.buttomnavigation.FilesFragment"
+        android:label="fragment_files"
+        tools:layout="@layout/fragment_files" >
+        <action
+            android:id="@+id/action_filesFragment2_to_patientDetailsFragment3"
+            app:destination="@id/patientDetailsFragment3" />
+        <action
+            android:id="@+id/action_FilesFragment_pop_including_AccountFragment"
+            app:popUpTo="@id/AccountFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>
