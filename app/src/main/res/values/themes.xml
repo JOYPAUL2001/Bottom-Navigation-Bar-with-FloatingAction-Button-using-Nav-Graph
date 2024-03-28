@@ -4,8 +4,8 @@
         <!-- Customize your light theme here. -->
 <!--         <item name="colorPrimary">#fff</item>-->
 <!--        <item name="colorPrimaryVariant">#024647</item>-->
-        <item name="android:windowBackground">#FFFFFF</item>
-        <item name="android:colorBackground">#FFFFFF</item>
+        <item name="android:windowBackground">#ECF4D6</item>
+        <item name="android:colorBackground">#ECF4D6</item>
         <item name="android:statusBarColor">#2D9596</item>
     </style>
 
